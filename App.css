@@ -1,0 +1,39 @@
+.container{
+width: 979px;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center; 
+margin: 100px auto;
+}
+
+.carContainer{
+  width: 100%;
+  height: auto;
+  background-color:#171e25;
+  border-radius: 10px;
+  display: flex;
+  padding: 5rem;
+}
+.layoutCard{
+width: 100%;
+height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardImageContainer{
+  width: 35%;
+  height: 266px;
+  background-color: #fceced;
+  background-image: radial-gradient(circle farthest-corner at 100% 0%, #f09898, #fff);
+  border-radius: 10px;
+}
+
+.cardDataContainer{
+ width: 50%;
+ height: 266px;
+ background-color: red;
+ border-radius:10px ;
+}
