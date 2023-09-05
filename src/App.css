@@ -1,0 +1,543 @@
+* {
+  box-sizing: border-box;
+  transition: all .2s ease-in-out;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #171e25;
+}
+
+.btnWidth {
+  width: 160px;
+  height: auto;
+}
+
+.cardContainer {
+  max-width: 980px;
+  width: 100%;
+  height: auto;
+  background-color: #171e25;
+  border-radius: 10px;
+  display: flex;
+  padding: 5rem;
+  margin: 1em auto;
+}
+
+.layoutCard {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  flex-wrap: wrap;
+}
+
+.right {
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+}
+
+
+.cardDataContainer {
+  width: 50%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.cardheading>h1 {
+  font-size: 2.3em;
+  color: #ccdae7;
+}
+
+.textgreadent1 {
+  background-image: linear-gradient(22deg, #f1c73f 23%, #77bd0c 87%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.textgreadent2 {
+  background-image: linear-gradient(207deg, #e23b3b 23%, #6668eb 87%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cardheading>p {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.cardImageContainer {
+  width: 35%;
+  max-width: 600px;
+  height: 266px;
+  border-radius: 10px;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageConatinerGretdent1 {
+  background-color: #fceced;
+  background-image: radial-gradient(circle farthest-corner at 100% 0%, #f09898, #fff);
+}
+
+.imageConatinerGretdent2 {
+  background-color: #171e25;
+  background-image: linear-gradient(124deg, #cff18f, #fff);
+}
+
+.cardImage {
+  width: 60%;
+  height: 119px;
+  background-color: #171e25;
+  border-radius: 10px;
+  margin: 2em auto;
+
+}
+
+.cardImage>img {
+  width: 100%;
+  height: 119px;
+  border-radius: 10px;
+}
+
+.modalMainConatiner {
+  width: 100%;
+  height: auto;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  position: relative;
+  background-color: #0d1117;
+}
+
+.modalMainBody {
+  width: 100%;
+  height: auto;
+  padding-top: 10em;
+  padding-bottom: 10em;
+}
+
+.ModalBackDesign {
+  position: relative;
+  background-image: linear-gradient(0deg, #0d1117, rgba(13, 17, 23, 0) 15%), linear-gradient(180deg, #0d1117, rgba(13, 17, 23, 0) 15%), radial-gradient(circle farthest-side at 50% 50%, rgba(13, 17, 23, 0), #0d1117), url("./asset/bg-tile-dark.svg");
+  background-position: 0px 0px, 0px 0px, 0px 0px, -1px -1px;
+  background-size: auto, auto, auto, 64px;
+}
+
+.modalBackDesigncolor {
+  background-color: #221f7e;
+}
+
+.modalContantContainer {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  z-index: 5;
+}
+
+.modalHeadingGreadent1 {
+  background-image: linear-gradient(207deg, #e23b3b 23%, #6668eb 87%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.modalRelative {
+  position: relative;
+  z-index: 5;
+}
+
+.modalHeadingGreadent2 {
+  background-image: linear-gradient(351deg, #31b3ec 23%, #524add 87%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.modalHeading {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  color: #ccdae7;
+  margin: 0 auto;
+  font-size: 2.2em;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.modalHeading>h1 {
+  margin: 0;
+}
+
+.modalHeadingMain {
+  max-width: 450px;
+  width: 100%;
+  height: auto;
+  margin: 0em auto 2.5em auto;
+}
+
+.modalDetail {
+  max-width: 670px;
+  width: 100%;
+  height: auto;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: -0.002em;
+}
+
+.btnContainer {
+  width: 200px;
+  height: auto;
+  background-color: transparent;
+  margin: 0 auto;
+  color: #ccdae7;
+  text-align: center;
+}
+
+
+.classBtn1 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 0.75em 1.25em;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 1.5em;
+  background-color: #0052cc;
+  cursor: pointer;
+  transition: color 100ms cubic-bezier(.165, .84, .44, 1);
+  /* -webkit-transition: color 100ms cubic-bezier(.165, .84, .44, 1); */
+  letter-spacing: -0.91px;
+  z-index: 5;
+  overflow: hidden;
+  -webkit-box-pack: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.classBtn1Value {
+  position: relative;
+  z-index: 5;
+  font-size: 0.8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+}
+
+.classBtn1Animation {
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.classBtn1Animation:hover {
+  transform: translate3d(101%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  display: block;
+}
+
+.modalCircleImage1 {
+  position: absolute;
+  top: 25%;
+  left: 17%;
+  width: 95px;
+  height: 95px;
+  border-radius: 9999px;
+  z-index: 5;
+}
+
+.modalCircleImage2 {
+  position: absolute;
+  bottom: 12%;
+  right: 25%;
+  width: 85px;
+  height: 85px;
+  border-radius: 9999px;
+  z-index: 5;
+}
+
+.modalCircleImage3 {
+  position: absolute;
+  right: 5%;
+  bottom: 29%;
+  width: 119px;
+  height: 119px;
+  border-radius: 9999px;
+  z-index: 5;
+}
+
+.modalCircleImage4 {
+  position: absolute;
+  bottom: 58%;
+  right: 17%;
+  width: 76px;
+  height: 76px;
+  border-radius: 9999px;
+  z-index: 5;
+}
+
+.modalCircleImage5 {
+  position: absolute;
+  top: 6%;
+  right: 32%;
+  width: 6em;
+  height: 6em;
+  border-radius: 9999px;
+  z-index: 5;
+}
+
+.modalCircleImage6 {
+  position: absolute;
+  top: 8%;
+  right: 54%;
+  width: 6.25em;
+  height: 6.25em;
+  border-radius: 9999px;
+  z-index: 5;
+}
+
+.modalCircleImage7 {
+  position: absolute;
+  left: 42%;
+  bottom: -7%;
+  width: 6.5em;
+  height: 6.5em;
+  border-radius: 9999px;
+  z-index: 5;
+}
+
+
+.modalCircleImage8 {
+  position: absolute;
+  bottom: 16%;
+  left: 30%;
+  width: 4em;
+  height: 4em;
+  border-radius: 9999px;
+  z-index: 5;
+}
+
+.modalCircleImage9 {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  width: 120px;
+  height: 120px;
+  border-radius: 9999px;
+  z-index: 5;
+}
+
+@media screen and (max-width:990px) {
+
+  .cardDataContainer,
+  .cardImageContainer {
+    width: 100%;
+  }
+
+  .layoutCard {
+    justify-content: center;
+  }
+
+  .modalHeading {
+    font-size: 1.9em;
+  }
+
+  .modalCircleImage1 {
+    left: 8%;
+
+  }
+
+  .modalCircleImage2 {
+    right: 12%;
+    width: 2.5em;
+    height: 2.5em;
+  }
+
+  .modalCircleImage3 {
+    width: 4.25em;
+    height: 4.25em;
+  }
+
+  .modalCircleImage4 {
+    right: 2%;
+    bottom: 72%;
+  }
+
+  .modalCircleImage5 {
+    top: 2%;
+    right: 24%;
+    width: 4em;
+    height: 4em;
+  }
+
+  .modalCircleImage6 {
+    width: 4em;
+    height: 4em;
+    top: 6%;
+  }
+
+  .modalCircleImage7 {
+    width: 4em;
+    height: 4em;
+  }
+
+  .modalCircleImage8 {
+    left: 12%;
+  }
+
+  .modalCircleImage9 {
+    width: 3em;
+    height: 3em;
+    top: 49%;
+  }
+
+  .modalMainBody {
+    padding-top: 5em;
+    padding-bottom: 5em;
+  }
+}
+
+@media screen and (max-width:770px) {
+  .modalHeading {
+    font-size: 1.5em;
+  }
+
+  .modalCircleImage1 {
+    width: 70px;
+    height: 70px;
+
+  }
+
+  .modalCircleImage2 {
+    right: 12%;
+    width: 2.5em;
+    height: 2.5em;
+  }
+
+  .modalCircleImage3 {
+    width: 3.5em;
+    height: 3.5em;
+  }
+
+  .modalCircleImage4 {
+    right: 4%;
+    bottom: 64%;
+    width: 65px;
+    height: 65px;
+  }
+
+  .modalCircleImage5 {
+    top: 2%;
+    right: 24%;
+    width: 3em;
+    height: 3em;
+  }
+
+  .modalCircleImage6 {
+    width: 3.5em;
+    height: 3.5em;
+    top: 3%;
+    right: 57%;
+  }
+
+  .modalCircleImage8 {
+    left: 9%;
+  }
+
+  .modalCircleImage9 {
+    width: 3em;
+    height: 3em;
+    top: 49%;
+    left: 3%;
+  }
+
+  .modalDetail {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .cardContainer {
+    padding: 5rem 2.5rem;
+  }
+
+  .modalHeading {
+    font-size: 1.2em;
+  }
+
+  .modalDetail {
+    font-size: .93em;
+  }
+
+  .modalContantContainer {
+    width: 90%;
+  }
+
+  .modalCircleImage1 {
+    display: none;
+  }
+
+  .modalCircleImage2 {
+    right: 3%;
+  }
+
+  .modalCircleImage3 {
+    display: none;
+  }
+
+  .modalCircleImage8 {
+    left: 3%;
+    bottom: 11%;
+    width: 3em;
+    height: 3em;
+  }
+
+  .modalCircleImage9 {
+    display: none;
+  }
+
+  .modalCircleImage6 {
+    top: 4%;
+    right: 73%;
+  }
+
+  .modalCircleImage5 {
+    top: 0;
+    right: 37%;
+  }
+
+  .modalCircleImage4 {
+    top: 6%;
+    width: 2.7em;
+    height: 2.7em;
+  }
+}
