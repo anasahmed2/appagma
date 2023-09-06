@@ -1,16 +1,63 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0d1117;
+}
+
+.textgreadent1 {
+  background-image: linear-gradient(22deg, #f1c73f 23%, #77bd0c 87%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.textgreadent2 {
+  background-image: linear-gradient(207deg, #e23b3b 23%, #6668eb 87%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.textgreadent3 {
+  background-image: linear-gradient(207deg, #e23b3b 23%, #6668eb 87%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.textgreadent4 {
+  background-image: linear-gradient(351deg, #31b3ec 23%, #524add 87%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.textgreadent5 {
+  background-image: linear-gradient(90deg, #ec6464, #eecc0b 33%, #3dd875 66%, #31b3ec);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.textgreadent6 {
+  background-image: linear-gradient(191deg, #f1dc39 25%, #c96e05 87%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 * {
   box-sizing: border-box;
   transition: all .2s ease-in-out;
 }
 
-.container {
+.display-none {
+  display: none !important;
+}
+
+.container1 {
   width: 100%;
   height: 100vh;
   padding: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #171e25;
+  background-color: #0d1117;
+  color: #0d1117;
 }
 
 .btnWidth {
@@ -59,17 +106,6 @@
   color: #ccdae7;
 }
 
-.textgreadent1 {
-  background-image: linear-gradient(22deg, #f1c73f 23%, #77bd0c 87%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.textgreadent2 {
-  background-image: linear-gradient(207deg, #e23b3b 23%, #6668eb 87%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
 .cardheading>p {
   color: #fff;
@@ -148,22 +184,14 @@
   z-index: 5;
 }
 
-.modalHeadingGreadent1 {
-  background-image: linear-gradient(207deg, #e23b3b 23%, #6668eb 87%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 
 .modalRelative {
   position: relative;
   z-index: 5;
 }
 
-.modalHeadingGreadent2 {
-  background-image: linear-gradient(351deg, #31b3ec 23%, #524add 87%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 
 .modalHeading {
   width: 100%;
@@ -222,7 +250,6 @@
   background-color: #0052cc;
   cursor: pointer;
   transition: color 100ms cubic-bezier(.165, .84, .44, 1);
-  /* -webkit-transition: color 100ms cubic-bezier(.165, .84, .44, 1); */
   letter-spacing: -0.91px;
   z-index: 5;
   overflow: hidden;
@@ -356,6 +383,236 @@
   z-index: 5;
 }
 
+.LineHolderMainContainer {
+  width: 100%;
+  position: relative;
+}
+
+.lineHolderDesign {
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: auto;
+  left: 0%;
+  right: 0%;
+  bottom: 30%;
+}
+
+.lineHolderColor {
+  background-image: linear-gradient(90deg, #21262d, rgba(33, 38, 45, 0));
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.title1ContainerMainContainer2 {
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  max-width: 64em;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-left: auto;
+  padding-right: 1.25em;
+  padding-left: 1.25em;
+  text-align: center;
+}
+
+.title1ContainerMainContainer {
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  max-width: 64em;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-left: auto;
+  padding-right: 1.25em;
+  padding-left: 1.25em;
+}
+
+.title1Heading {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.title1HeadingContant {
+  min-width: 100px;
+  height: auto;
+  display: flex;
+  text-transform: uppercase;
+  align-items: center;
+  color: #fff;
+}
+
+.contantValueContainer {
+  display: flex;
+  align-items: center;
+  font-size: 0.7em;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  font-family: sans-serif;
+
+}
+
+.contantNocontainer {
+  height: auto;
+  opacity: 0.5;
+  font-weight: bold;
+  font-size: 0.7em;
+  margin-right: 10px;
+  letter-spacing: 0.15em;
+}
+
+.title1HeadingLineholder2 {
+  width: 40%;
+  height: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.title1HeadingLineholder {
+  width: 70%;
+  height: auto;
+  margin-left: 10px;
+  position: relative;
+}
+
+.title1DetailContainer2 {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  display: grid;
+  -webkit-box-pack: start;
+  justify-content: center;
+  grid-auto-flow: column;
+  grid-auto-columns: auto;
+  grid-column-gap: 1.5em;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+
+.title1DetailContainer {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  display: grid;
+  -webkit-box-pack: start;
+  justify-content: start;
+  grid-auto-flow: column;
+  grid-auto-columns: auto;
+  grid-column-gap: 1.5em;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+.title1Image {
+  width: 2.75em;
+  height: 2.75em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: #7f89ec;
+  border-width: 3px;
+  border-radius: 9999px;
+  border-style: solid;
+  background-color: #4036be;
+  background-image: radial-gradient(circle farthest-side at -50% 50%, #524add, #4036be);
+  box-shadow: inset 0 0 5px 0 #2e2799, 0 8px 24px -8px #7f89ec;
+  color: #bcc6ee;
+  font-size: 1.25em;
+  text-align: center;
+  padding: 2px;
+}
+
+.title1Image>img {
+  width: 1.25em;
+  height: 1.25em;
+  border-radius: 9999px;
+}
+
+.title1MainHeading {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+
+}
+
+.title1HeadingH1A {
+  font-size: 4em;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0;
+  color: #ccdae7;
+}
+
+.title1HeadingH1 {
+  font-size: 3.5em;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0;
+  color: #ccdae7;
+}
+
+
+.title1Detail {
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 600;
+  letter-spacing: -0.02em
+}
+
+.card1Container {
+  width: 100%;
+  max-width: 310px;
+  height: auto;
+  margin: 8px 4px;
+  padding: 8px 4px;
+  color: #fff;
+}
+
+.card1Img {
+  width: 290px;
+  height: 290px;
+  margin: 0 auto;
+}
+
+.card1Img>img {
+  width: 290px;
+  height: 290px;
+  border-radius: 0.75em;
+}
+
+.card1Name {
+  margin: 15px auto;
+  width: 100%;
+  text-align: center;
+}
+
+.card1Name>p {
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.card1Experience{
+  width: 100%;
+  text-align: center;
+}
+
+.card1Experience>p{
+  font-size: 1.1em;
+  font-weight:600;
+}
+
+
 @media screen and (max-width:990px) {
 
   .cardDataContainer,
@@ -483,6 +740,16 @@
   .modalDetail {
     font-size: 1.2em;
   }
+
+  .title1HeadingH1A,
+  .title1HeadingH1 {
+    font-size: 2.3em;
+  }
+
+  .title1Detail {
+    font-size: 15px;
+    line-height: 22px;
+  }
 }
 
 @media screen and (max-width:450px) {
@@ -539,5 +806,10 @@
     top: 6%;
     width: 2.7em;
     height: 2.7em;
+  }
+
+  .title1HeadingH1A,
+  .title1HeadingH1 {
+    font-size: 1.7em;
   }
 }
