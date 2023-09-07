@@ -14,5 +14,14 @@ const Button1 = ({ value, classBtn1, classBtn1Value, classBtn1Animation }) => {
         </>
     )
 }
+const Button2 = ({ value, classBtn2 }) => {
+    return (
+        <>
+            <button className={classBtn2}>
+                    {value}
+            </button>
+        </>
+    )
+}
 
-export default Button1;
+export {Button1, Button2};

@@ -1,4 +1,4 @@
-import Button1 from "../Button";
+import {Button1} from "../Button";
 const Modal = ({ modalMainConatiner, modalMainBody, modalContantContainer, modalHeading,modalValue1,modalValue2,modalValueG1,modalValueG2, modalHeadingGreadent1, modalHeadingGreadent2, modalHeadingMain, modalDetail, btnContainer, classBtn1, btnvalue, classBtn1Animation, modalRelative, modalCircleImage1, modalCircleImage2, modalCircleImage3, modalCircleImage4, modalCircleImage5, modalCircleImage6, modalCircleImage7, modalCircleImage8, modalCircleImage9, imageCircle1, imageCircle2, imageCircle3, imageCircle4, imageCircle5, imageCircle6, imageCircle7, imageCircle8, imageCircle9,modalValueDetal }) => {
     return (
         <>
