@@ -1,9 +1,6 @@
-.container {
-  width: 100%;
-  min-height: 100vh;
-  background-color: #0d1117;
+.bg-1{
+  background-color: #171e25;
 }
-
 .textgreadent1 {
   background-image: linear-gradient(22deg, #f1c73f 23%, #77bd0c 87%);
   background-clip: text;
@@ -11,7 +8,7 @@
 }
 
 .textgreadent2 {
-  background-image: linear-gradient(207deg, #e23b3b 23%, #6668eb 87%);
+  background-image: linear-gradient(191deg, #f1dc39 25%, #c96e05 87%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -44,6 +41,21 @@
   background-image: radial-gradient(circle farthest-corner at 0% -50%, hsla(0, 0%, 100%, 0) 3%, #079de0 44%, hsla(0, 0%, 100%, 0) 72%), radial-gradient(circle farthest-corner at 50% 100%, #a355ee, #3077eb);
 }
 
+.boxGreadent2 {
+  background-color: #fceced;
+  background-image: radial-gradient(circle farthest-corner at 100% 0%, #f09898, #fff);
+}
+
+.boxGreadent3 {
+  background-color: #171e25;
+  background-image: linear-gradient(124deg, #cff18f, #fff);
+}
+
+.boxGreadent4 {
+  background-color: #171e25;
+  background-image: linear-gradient(0deg, #5ce5f6, #fff);
+}
+
 * {
   box-sizing: border-box;
   transition: all .2s ease-in-out;
@@ -53,104 +65,10 @@
   display: none !important;
 }
 
-.container1 {
+.mainContainer {
   width: 100%;
-  height: 100vh;
-  padding: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  min-height: 100vh;
   background-color: #0d1117;
-  color: #0d1117;
-}
-
-.btnWidth {
-  width: 160px;
-  height: auto;
-}
-
-.cardContainer {
-  max-width: 980px;
-  width: 100%;
-  height: auto;
-  background-color: #171e25;
-  border-radius: 10px;
-  display: flex;
-  padding: 5rem;
-  margin: 1em auto;
-}
-
-.layoutCard {
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.left {
-  flex-wrap: wrap;
-}
-
-.right {
-  flex-direction: row-reverse;
-  flex-wrap: wrap-reverse;
-}
-
-
-.cardDataContainer {
-  width: 50%;
-  max-width: 600px;
-  height: auto;
-  border-radius: 10px;
-}
-
-.cardheading>h1 {
-  font-size: 2.3em;
-  color: #ccdae7;
-}
-
-
-.cardheading>p {
-  color: #fff;
-  font-size: 1.2em;
-}
-
-.cardImageContainer {
-  width: 35%;
-  max-width: 600px;
-  height: 266px;
-  border-radius: 10px;
-  background-repeat: no-repeat !important;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.imageConatinerGretdent1 {
-  background-color: #fceced;
-  background-image: radial-gradient(circle farthest-corner at 100% 0%, #f09898, #fff);
-}
-
-.imageConatinerGretdent2 {
-  background-color: #171e25;
-  background-image: linear-gradient(124deg, #cff18f, #fff);
-}
-
-.cardImage {
-  width: 60%;
-  height: 119px;
-  background-color: #171e25;
-  border-radius: 10px;
-  margin: 2em auto;
-
-}
-
-.cardImage>img {
-  width: 100%;
-  height: 119px;
-  border-radius: 10px;
 }
 
 .modalMainConatiner {
@@ -188,14 +106,10 @@
   z-index: 5;
 }
 
-
-
 .modalRelative {
   position: relative;
   z-index: 5;
 }
-
-
 
 .modalHeading {
   width: 100%;
@@ -241,7 +155,6 @@
   text-align: center;
 }
 
-
 .classBtn1 {
   width: 100%;
   height: auto;
@@ -266,6 +179,29 @@
   font-weight: bold;
 }
 
+.classBtn3 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 0.75em 1.25em;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 1em;
+  background-color: #0052cc;
+  cursor: pointer;
+  transition: color 100ms cubic-bezier(.165, .84, .44, 1);
+  letter-spacing: -0.91px;
+  z-index: 5;
+  overflow: hidden;
+  -webkit-box-pack: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  text-align: center;
+  font-weight: bold;
+}
 
 .classBtn1Value {
   position: relative;
@@ -387,7 +323,6 @@
   z-index: 5;
 }
 
-
 .modalCircleImage8 {
   position: absolute;
   bottom: 16%;
@@ -406,6 +341,94 @@
   height: 120px;
   border-radius: 9999px;
   z-index: 5;
+}
+
+.section {
+  width: 100%;
+  padding: 5em .5em 3em .5em;
+}
+
+.btnWidth {
+  width: 160px;
+  height: auto;
+}
+
+.sectionA {
+  width: 100%;
+  height: auto;
+  margin: 0px auto 100px auto;
+}
+
+.cardContainer {
+  max-width: 980px;
+  width: 100%;
+  height: auto;
+  background-color: #171e25;
+  border-radius: 10px;
+  display: flex;
+  padding: 5rem;
+  margin: 1em auto;
+}
+
+.layoutCard {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  flex-wrap: wrap;
+}
+
+.right {
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.cardDataContainer {
+  width: 50%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.cardheading>h1 {
+  font-size: 2.3em;
+  color: #ccdae7;
+}
+
+.cardheading>p {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.cardImageContainer {
+  width: 35%;
+  max-width: 600px;
+  height: 266px;
+  border-radius: 10px;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardImage {
+  width: 60%;
+  height: 119px;
+  background-color: #171e25;
+  border-radius: 10px;
+  margin: 2em auto;
+
+}
+
+.cardImage>img {
+  width: 100%;
+  height: 119px;
+  border-radius: 10px;
 }
 
 .LineHolderMainContainer {
@@ -594,6 +617,100 @@
   letter-spacing: -0.02em
 }
 
+.section1 {
+  width: 100%;
+  padding-bottom: 5em;
+}
+
+.section1A {
+  width: 100%;
+  max-width: 86em;
+  margin: 0 auto;
+  padding: 0 1.25em;
+}
+
+.section2Divider {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.divider1 {
+  width: 33%;
+  height: auto;
+}
+
+.divider2 {
+  width: 66.5%;
+  height: 100%;
+}
+
+.divider2container {
+  width: 100%;
+  height: auto;
+  padding: 35px 1.25em 0px 1.25em;
+}
+
+.divider2heading {
+  width: 100%;
+  height: auto;
+  margin-bottom: 35px;
+}
+
+.divider2heading>h6 {
+  color: #fff;
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: 600;
+  letter-spacing: 0px;
+  line-height: 1.2;
+}
+
+.divider2heading>h1 {
+  color: #ccdae7;
+  font-size: 4em;
+  margin: 6px auto;
+  line-height: 1;
+}
+
+.divider2card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.sectionDivider{
+  width: 100%;
+  height: auto;
+}
+
+.sectionDividerA{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap:wrap ;
+  justify-content: center;
+}
+
+.sectionABtn1{
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  margin: 0 auto;
+}
+.sectionAContainer{
+  width: 100%;
+  max-width: 1370px;
+  height: auto;
+  margin: 0 auto;
+
+}
+
 .card1Container {
   width: 100%;
   max-width: 310px;
@@ -644,6 +761,7 @@
   height: auto;
   border: 1px solid #21262d;
   border-radius: 20px;
+  margin: 0 auto;
 }
 
 .card3greadentBox {
@@ -722,7 +840,7 @@
 
 .card3_D_C_Area>h2 {
   margin: 10px auto 5px auto;
-  color: #fff!important;
+  color: #fff !important;
 
 }
 
@@ -763,6 +881,7 @@
   width: 100%;
   max-width: 315px;
   height: auto;
+  margin: 10px;
   box-shadow: inset 0 0 0 1px #272e35, 0 4px 8px -4px #101720;
   text-align: center;
   background-color: #1e252c;
@@ -851,44 +970,66 @@
   width: 100%;
   max-width: 714px;
   padding: 3em;
-background-image: url("./asset/bg-shape-05.png");
-background-color: #0052cc;
-background-repeat: no-repeat;
-background-size: cover;
+  background-image: url("./asset/bg-shape-05.png");
+  background-color: #0052cc;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: auto;
-  border-radius:15px ;
+  border-radius: 15px;
 }
 
-.ml-5{
-  margin-left: 10px!important;
-  margin-right: 0 1!important;
-}
-.leter-s-none{
-  letter-spacing: 0px!important;
-}
-.min-w-7{
-  min-width: 70px!important;
-}
-.card6Haeding{
-margin-bottom:30px ;
+.ml-5 {
+  margin-left: 10px !important;
+  margin-right: 0 1 !important;
 }
 
-.card6MainJHaeding{
+.leter-s-none {
+  letter-spacing: 0px !important;
+}
+
+.min-w-7 {
+  min-width: 70px !important;
+}
+
+.card6Haeding {
+  margin-bottom: 30px;
+}
+
+.card6MainJHaeding {
   width: 100%;
   height: auto;
   margin-bottom: 10px;
 }
 
-.card6MainJHaeding>h1{
+.card6MainJHaeding>h1 {
   color: #fff;
   letter-spacing: -0.043em;
-  margin: 0 ;
+  margin: 0;
 }
-.card6MainJHaeding>p{
+
+.card6MainJHaeding>p {
   font-size: 25px;
   color: #fff;
   font-weight: 600;
 }
+
+@media screen and (max-width:1100px) {
+  .divider1 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .divider2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .divider2heading>h1 {
+    text-align: center;
+  }
+}
+
 @media screen and (max-width:990px) {
 
   .cardDataContainer,
@@ -1026,11 +1167,15 @@ margin-bottom:30px ;
     font-size: 15px;
     line-height: 22px;
   }
+
+  .divider2heading>h1 {
+    font-size: 3em;
+  }
 }
 
 @media screen and (max-width:450px) {
   .cardContainer {
-    padding: 5rem 2.5rem;
+    padding: 5rem 2rem;
   }
 
   .modalHeading {
@@ -1088,4 +1233,8 @@ margin-bottom:30px ;
   .title1HeadingH1 {
     font-size: 1.7em;
   }
+
+  .divider2heading>h1{
+    font-size: 2.2em;
+      }
 }

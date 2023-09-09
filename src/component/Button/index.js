@@ -7,10 +7,7 @@ const Button1 = ({ value, classBtn1, classBtn1Value, classBtn1Animation }) => {
                 </div>
                 <div className={classBtn1Animation}></div>
 
-            </button>
-    
-
-       
+            </button>   
         </>
     )
 }
@@ -24,4 +21,18 @@ const Button2 = ({ value, classBtn2 }) => {
     )
 }
 
-export {Button1, Button2};
+const Button3 = ({ value, classBtn3, classBtn1Value, classBtn1Animation }) => {
+    return (
+        <>
+            <button className={classBtn3}>
+                <div className={classBtn1Value}>
+                    {value}
+                </div>
+                <div className={classBtn1Animation}></div>
+
+            </button>   
+        </>
+    )
+}
+
+export {Button1, Button2 ,Button3};

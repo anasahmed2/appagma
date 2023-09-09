@@ -27,7 +27,7 @@ const Title1Container = ({ title1ContainerMainContainer, title1Heading, title1He
 }
 
 const Title2Container = ({ lineHolderColor2,title1ContainerMainContainer2, title1Heading, title1HeadingContant, title1HeadingLineholder2, title1DetailContainer2, lineHolderColor,  contantNocontainer, contantValueContainer, title1MainHeading, title1HeadingH1A, title1HeadingH1G
-      , title2SnoValue,title2SnoHeadingValue,title2MainHeadingValue, title2MainHeadingValueG}) => {
+      , title2SnoValue,title2SnoHeadingValue,title2MainHeadingValue, title2MainHeadingValueG ,title1HeadingH1G1}) => {
     return (
         <>
             <div className={title1ContainerMainContainer2}>
@@ -45,7 +45,7 @@ const Title2Container = ({ lineHolderColor2,title1ContainerMainContainer2, title
                 </div>
                 <div className={title1DetailContainer2}>
                     <div className={title1MainHeading}>
-                        <h1 className={title1HeadingH1A}>{title2MainHeadingValue} <span className={title1HeadingH1G}>{title2MainHeadingValueG}</span>.</h1>
+                        <h1 className={title1HeadingH1A}><span className={title1HeadingH1G1}>{title2MainHeadingValue} </span><span className={title1HeadingH1G}>{title2MainHeadingValueG}</span>.</h1>
                     </div>
                 </div>
 
