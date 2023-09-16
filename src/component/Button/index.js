@@ -1,38 +1,32 @@
 const Button1 = ({ value, classBtn1, classBtn1Value, classBtn1Animation }) => {
-    return (
-        <>
-            <button className={classBtn1}>
-                <div className={classBtn1Value}>
-                    {value}
-                </div>
-                <div className={classBtn1Animation}></div>
-
-            </button>   
-        </>
-    )
-}
+  return (
+    <>
+      <button className={classBtn1}>
+        <div className={classBtn1Value}>{value}</div>
+        <div className={classBtn1Animation}></div>
+      </button>
+    </>
+  );
+};
 const Button2 = ({ value, classBtn2 }) => {
-    return (
-        <>
-            <button className={classBtn2}>
-                    {value}
-            </button>
-        </>
-    )
-}
+  return (
+    <>
+      <button className={classBtn2}>{value}</button>
+    </>
+  );
+};
 
 const Button3 = ({ value, classBtn3, classBtn1Value, classBtn1Animation }) => {
-    return (
-        <>
-            <button className={classBtn3}>
-                <div className={classBtn1Value}>
-                    {value}
-                </div>
-                <div className={classBtn1Animation}></div>
+  return (
+    <>
+      <button className={classBtn3}>
+        <div className={classBtn1Value}>{value}</div>
+        <div className="classBtn1Animation"></div>
+      </button>
+    </>
+  );
+};
 
-            </button>   
-        </>
-    )
-}
 
-export {Button1, Button2 ,Button3};
+
+export { Button1, Button2, Button3};
